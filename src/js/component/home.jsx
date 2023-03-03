@@ -31,8 +31,11 @@ class TrafficLight extends Component {
 			  onClick={()=>this.setState({stateRed: "off", stateYellow: "off", stateGreen: "off", statePurple: "on"})}>
 			  </div>
 			</div>
-			<button onClick={()=>this.setState({stateRed: "off", stateYellow: "off", stateGreen: "off", statePurple: "off"})}>
+			
+			<button type="button" onClick={()=>this.setState({stateRed: "off", stateYellow: "off", stateGreen: "off", statePurple: "off"})}>
 			  </button>
+			
+			
 		  </div>);
 	  }
   }
